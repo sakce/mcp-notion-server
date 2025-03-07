@@ -179,12 +179,12 @@ const richTextObjectSchema = {
               description: "An ISO 8601 formatted start date or date-time.",
             },
             end: {
-              type: ["string", "null"],
+              type: "string",
               description:
                 "An ISO 8601 formatted end date or date-time, or null if not a range.",
             },
             time_zone: {
-              type: ["string", "null"],
+              type: "string",
               description:
                 "Time zone information for start and end. If null, times are in UTC.",
             },
